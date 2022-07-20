@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "getinfo",
+    "name": "Query1",
     "datasource": {
       "name": "latest!!",
       "pluginId": "postgres-plugin",
@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT * FROM projectAssignment as projectInfo;",
+      "body": "SELECT * from domains,ipaddress as projectInfo;",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -36,7 +36,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Page1_getinfo",
+  "id": "Page1_Query1",
   "deleted": false,
-  "gitSyncId": "62badb7ab34d744e0202c6a3_62ceabce1524a3175a41c7e8"
+  "gitSyncId": "62badb7ab34d744e0202c6a3_62d6b2901524a3175a41c81c"
 }
