@@ -59,41 +59,11 @@
             },
             {
               "boxShadow": "none",
-              "widgetName": "CustomersTable",
-              "defaultPageSize": 0,
-              "columnOrder": [
-                "projectid",
-                "personname",
-                "personemail",
-                "customColumn1"
-              ],
               "isVisibleDownload": true,
-              "dynamicPropertyPathList": [
-                {
-                  "key": "tableData"
-                }
-              ],
-              "displayName": "Table",
               "iconSVG": "/static/media/icon.db8a9cbd.svg",
               "topRow": 5,
-              "bottomRow": 76,
-              "parentRowSpace": 10,
               "isSortable": true,
               "type": "TABLE_WIDGET",
-              "defaultSelectedRow": "0",
-              "hideCard": false,
-              "parentColumnSpace": 17.28125,
-              "dynamicTriggerPathList": [
-                {
-                  "key": "onRowSelected"
-                },
-                {
-                  "key": "onSearchTextChanged"
-                },
-                {
-                  "key": "primaryColumns.customColumn1.menuItems.menuItemythpxvx79j.onClick"
-                }
-              ],
               "dynamicBindingPathList": [
                 {
                   "key": "accentColor"
@@ -136,6 +106,74 @@
                 }
               ],
               "leftColumn": 3,
+              "delimiter": ",",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisibleFilters": true,
+              "isVisible": true,
+              "version": 3,
+              "totalRecordsCount": 0,
+              "isLoading": false,
+              "onSearchTextChanged": "",
+              "childStylesheet": {
+                "button": {
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "menuButton": {
+                  "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "iconButton": {
+                  "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                }
+              },
+              "borderRadius": "0px",
+              "primaryColumnId": "projectid",
+              "columnSizeMap": {
+                "task": 245,
+                "step": 62,
+                "status": 75,
+                "email": 362,
+                "name": 247,
+                "country": 240,
+                "customColumn1": 130,
+                "projectname": 375,
+                "projectid": 327
+              },
+              "widgetName": "CustomersTable",
+              "defaultPageSize": 0,
+              "columnOrder": [
+                "projectid",
+                "personname",
+                "personemail",
+                "customColumn1"
+              ],
+              "dynamicPropertyPathList": [
+                {
+                  "key": "tableData"
+                }
+              ],
+              "displayName": "Table",
+              "bottomRow": 76,
+              "parentRowSpace": 10,
+              "defaultSelectedRow": "0",
+              "hideCard": false,
+              "parentColumnSpace": 17.28125,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onRowSelected"
+                },
+                {
+                  "key": "onSearchTextChanged"
+                },
+                {
+                  "key": "primaryColumns.customColumn1.menuItems.menuItemythpxvx79j.onClick"
+                }
+              ],
               "primaryColumns": {
                 "customColumn1": {
                   "index": 10,
@@ -235,7 +273,6 @@
                   "cellBackground": ""
                 }
               },
-              "delimiter": ",",
               "onRowSelected": "",
               "key": "gsiv88orej",
               "derivedColumns": {
@@ -265,51 +302,15 @@
               "rightColumn": 62,
               "textSize": "0.875rem",
               "widgetId": "rsrxzwk730",
-              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-              "isVisibleFilters": true,
               "tableData": "{{getinfo.data}}",
-              "isVisible": true,
               "label": "Data",
               "searchKey": "",
-              "version": 3,
-              "totalRecordsCount": 0,
               "parentId": "0",
               "renderMode": "CANVAS",
-              "isLoading": false,
-              "onSearchTextChanged": "",
               "horizontalAlignment": "LEFT",
               "isVisibleSearch": true,
-              "childStylesheet": {
-                "button": {
-                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                  "boxShadow": "none"
-                },
-                "menuButton": {
-                  "menuColor": "{{appsmith.theme.colors.primaryColor}}",
-                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                  "boxShadow": "none"
-                },
-                "iconButton": {
-                  "menuColor": "{{appsmith.theme.colors.primaryColor}}",
-                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                  "boxShadow": "none"
-                }
-              },
-              "borderRadius": "0px",
               "isVisiblePagination": true,
-              "verticalAlignment": "CENTER",
-              "columnSizeMap": {
-                "task": 245,
-                "step": 62,
-                "status": 75,
-                "email": 362,
-                "name": 247,
-                "country": 240,
-                "customColumn1": 130,
-                "projectname": 375,
-                "projectid": 327
-              }
+              "verticalAlignment": "CENTER"
             },
             {
               "boxShadow": "none",
@@ -733,7 +734,7 @@
                         }
                       },
                       "isDeprecated": false,
-                      "rightColumn": 63,
+                      "rightColumn": 31,
                       "textSize": "0.875rem",
                       "widgetId": "o9x7vn4p10",
                       "tableData": "{{Query1.data}}",
